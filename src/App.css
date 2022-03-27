@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: bisque;
+}
+.App{
+    width: 500px;
+    background: linear-gradient(135deg, #fff, red);
+    margin:auto;
+    padding-bottom: 3rem;
+    border-radius: 7px;
+}
+h1{
+    text-align: center;
+}
+.btn{
+    display: block;
+    margin: auto;
+}
+.alt{
+    background-color:purple;
+    width:470px;
+    color: white;
+}
+.badge{
+    color:red;
+}
+.list-group{
+    margin:auto;
+    width:470px;
+}
+.list-group:hover{
+    cursor:pointer;
+}
+span:hover{
+    background-color:yellow;
+    transition: background-color .2s ease-in-out;
+}
+.list-group-item:hover{
+    box-shadow: 2px 2px 2px 2px wheat;
+    background-color:rgb(231, 224, 224);
+    transition: background-color .3s ease-in-out;
+    
+}
+.list-group-item{
+    border-left:5px solid purple;
+ } 
+ .description{
+    margin-left: 11rem;
+    margin-top: 1rem;
+    position:absolute;
+ }
+ .close-show{
+     display:none;
+ }
